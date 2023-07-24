@@ -6,7 +6,7 @@ const router = express.Router() ;
 const  identifyUser  = require('../controllers/indentifyController')
 
 // Endpoints
-router.get('/identify', identifyUser) ;
+router.post('/identify', identifyUser) ;
 
 //Exporting Router
 module.exports = router ;

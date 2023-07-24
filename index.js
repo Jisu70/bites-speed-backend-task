@@ -9,11 +9,9 @@ const dbConnection = require("./config/db");
 // Model 
 const Contact = require('./model/contactModel')
 
-
 // Routes
 const identifyRoute = require('./routes/identifyRoutes')
 app.use('/api', identifyRoute)
-
 
 
 // Start the server
